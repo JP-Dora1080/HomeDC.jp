@@ -1,0 +1,13 @@
+body {
+  margin: 15px;
+}
+
+h1, h2, p, a {
+  color: #4DC9C9 !important;
+}
+
+.nav-pills > li.active > a, .btn-primary {
+  background-color: #6C6C6C !important;
+  border-color: #6C6C6C !important;
+  border-radius: 25px;
+}

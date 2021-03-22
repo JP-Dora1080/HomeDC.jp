@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta charset="UTF-8">
+  <meta author="Veulx">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HomeDC.jp | 逸般の誤家庭サーバー</title>
+  <meta name="description" content="このサイトは、逸般の誤家庭サーバーのサイトです。">
+  <meta name="keywords" content="HomeDC, HomeDC.jp, HomeDC japan" />
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta property="og:title" content="ここをクリックして、サイトを開く">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.homedc.jp/">
+  <meta property="og:image" content="https://www.homedc.jp/pr_1.jpg">
+  <meta property="og:site_name" content="HomeDC.jp | 逸般の誤家庭サーバー">
+  <meta property="og:description" content="このサイトは、逸般の誤家庭サーバーのサイトです。">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.homedc.jp/pr_1.jpg">
+  <meta property="og:image:secure_url" content="https://www.homedc.jp/pr_1.jpg" />
+  <meta property="og:image:alt" content="HomeDC JP" />
+  <meta name="theme-color" content="#54f9ff" />
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+
+  <link rel="icon" href="favicon.ico">
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.css'>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body translate="no" >
+  <div class="container" ng-app="tabApp">
+  <div class="row" ng-controller="TabController">
+  	<div class="col-md-2">
+  		<ul class="nav nav-pills nav-stacked">
+       	<li ng-class="{ active: isSet(1) }">
+          	<a href ng-click="setTab(1)">ホーム</a>
+       	</li>
+        <li ng-class="{ active: isSet(2) }">
+          	<a href ng-click="setTab(2)">HomeDC.jpについて</a>
+       	</li>
+       	<li ng-class="{ active: isSet(3) }">
+          	<a href ng-click="setTab(3)">サーバー構成</a>
+       	</li>
+       	<li ng-class="{ active: isSet(4) }">
+          	<a href ng-click="setTab(4)">その他の機材</a>
+       	</li>
+        <li ng-class="{ active: isSet(5) }">
+          	<a href ng-click="setTab(5)">ネットワーク状況</a>
+       	</li>
+      </ul>
+  	</div>
+    <div class="col-md-8">
+  		<div class="jumbotron">
+       	<div ng-show="isSet(1)">
+         	 <h1>HomeDC.jp</h1>
+           <p>HomeDC.jp公式サイトへようこそ！</p>
+           <h2>ニュース</h2>
+           <p>サイトが新しくなりました！</p>
+        	</div>
+      <div ng-show="isSet(2)">
+        <h1>HomeDC.jpについて</h1>
+        <p>HomeDC.jpは、Veulxが逸般の誤家庭サーバーを目指していくために作られたものです。使ってるサーバーや機材の詳細が載ってますので、ぜひご覧ください。</p>
+        <p>
+          <a class="btn btn-primary" role="button" href="https://twitter.com/HomeDC_JP">Twitter</a>
+        </p>
+      </div>
+			<div ng-show="isSet(3)">
+        <h1>サーバー構成</h1>
+        <h2>SV1(ストレージサーバー)</h2>
+        <p>モデル名: Hitachi HA8000/RS110 BM1 <br />
+           CPU: Intel(R) Xeon(R) CPU E3-1220 v3 @ 3.10GHz (4Core)<br />
+           メモリー: 16GB DDR3 <br />
+           ストレージ: HGST HDD 2TB x4 (RAID10: 4TB)</p>
+          <h2>SV2(仮想化サーバー)</h2>
+          <p>モデル名: Hitachi HA8000/RS210 AN <br />
+             CPU: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz x2 (24Core) <br />
+             メモリー: 32GB DDR4 <br />
+             ストレージ1: Samsung 860 EVO SSD 500GB (RAID0: 1TB) <br />
+             ストレージ2: HGST SAS 480GB x2 (RAID1: 960GB)</p>
+          <h2>ラズベリーパイ(遊園地サーバー)</h2>
+          <p>モデル名: Raspberry Pi 4 Modeb B <br />
+             CPU: Broadcom BCM2711 @ 1.5GHz (4Core)<br />
+             メモリー: 4GB <br />
+             ストレージ: Intel SSD DC s3700 Series 100GB</p>
+     	</div>
+      <div ng-show="isSet(4)">
+        <h1>その他の機材</h1>
+        <h2>ノートパソコン(管理&監視＆配信用)</h2>
+        <p>モデル名: DELL Inspiron 5391 <br />
+           CPU: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz (8Core)<br />
+           メモリー: 8GB DDR4<br />
+           ストレージ: 256GB NVMe</p>
+        <h2>SoftBank BBユニット (ネットワーク1)</h2>
+        <h2>Yamaha RTX1200 No.1 (ネットワーク2)</h2>
+        <h2>Yamaha RTX1200 No.2 (ネットワーク3)</h2>
+        <h2>冷風機</h2>
+     	</div>
+      <div ng-show="isSet(5)">
+        <h1>ネットワーク状況</h1>
+        <iframe class="htframe" src="https://wl.hetrixtools.com/r/5daa348133e49500d1310af8dec3a4c1/" width="100%" scrolling="yes" style="border:none;" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+     	</div>
+  	</div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js'></script>
+  <script src="main.js"></script>
+
+  <script type="text/javascript" src="https://cdn.rawgit.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.min.js"></script>
+	<script>var iframes = iFrameResize([{log:false}],'.htframe');</script>
+
+</body>
+
+</html>
