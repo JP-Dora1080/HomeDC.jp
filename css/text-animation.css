@@ -1,0 +1,28 @@
+@font-face {
+  src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+    format("woff2");
+  font-family: "Meta";
+  font-style: normal;
+  font-weight: normal;
+}
+
+text-animation {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #d9edff;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 15rem;
+  text-align: center;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  text-shadow: 10px 10px 0px #3b8cff,
+    15px 15px 0px #8f8f8f,
+    20px 20px 0px #adadad,
+    25px 25px 0px #c4c4c4,
+    45px 45px 10px #949494;
+  cursor: pointer;
+}
+
+text-animation:hover {
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
+}
