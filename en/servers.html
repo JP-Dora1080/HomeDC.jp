@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta charset="UTF-8">
+  <meta author="Veulx">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HomeDC Japan | Server Configuration</title>
+  <meta name="description" content="This site is for a plan to build a data center at home.">
+  <meta name="keywords" content="HomeDC, HomeDC.jp, HomeDC japan" />
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta property="og:title" content="Click here to open the site">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.homedc.jp/en">
+  <meta property="og:image" content="https://www.homedc.jp/en/img/pr_1.png">
+  <meta property="og:site_name" content="HomeDC Japan | Plan to build a data center at home">
+  <meta property="og:description" content="This site is for a plan to build a data center at home.">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.homedc.jp/en/img/pr_1.png">
+  <meta property="og:image:secure_url" content="https://www.homedc.jp/en/img/pr_1.png" />
+  <meta property="og:image:alt" content="HomeDC JP" />
+  <meta name="theme-color" content="#54f9ff" />
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ionicons.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/syntax.css" />
+  <link rel="stylesheet" href="css/white.css" />
+  <link rel="icon" href="favicon.ico">
+
+  <style>
+  ::-webkit-scrollbar
+  {
+  width: 6px;
+  }
+  ::-webkit-scrollbar-track
+  {
+  background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb
+  {
+  background: rgb(0, 155, 245);
+  }
+  ::-webkit-scrollbar-thumb:hover
+  {
+  background: #555;
+  }
+  </style>
+
+  </head>
+  <body class=" home">
+    <div class="preloader">
+      <div class="centrize full-width">
+        <div class="vertical-center">
+          <div class="pre-inner">
+            <div class="load typing-load"><p>逸般の誤家庭</p></div>
+            <span class="typed-load"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <header>
+        <div class="head-top">
+          <span class="sidebar_btn"><span></span></span>
+          <a href="#" class="menu-btn"><span></span></a>
+          <div class="top-menu">
+            <ul>
+              <li><a href="index.html"><b>Home</b></a></li>
+              <li><a href="about.html"><b>About HomeDC.jp</b></a></li>
+              <li><a href="#"><b>Server Configuration</b></a></li>
+              <li><a href="status.html"><b>Network status</b></a></li>
+              <li><a href="https://discord.com/invite/y5kGCGwN59"><b>Discord Community</b></a></li>
+              <li><a href="https://search-dns.homedc.jp/"><b>DNS Lookup Tool</b></a></li>
+              <li><a href="https://text.homedc.jp/"><b>Text Tool</b></a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="wrapper">
+        <div class="section started">
+          <div class="centrize full-width">
+            <div class="vertical-center">
+              <div class="started-content">
+                <div class="h-title" data-text="Serverの構造について">Server Configuration</div>
+                <div class="h-subtitle typing-bread">
+                  <p><a href="index.html">Home</a> / <a href="#">Server Configuration</a></p>
+                </div>
+                <span class="typed-bread"></span>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
+        </div>
+        <div class="section works">
+          <div class="content">
+            <div class="filter-menu">
+              <div class="filters">
+                <div class="btn-group">
+                  <label data-text="">
+                    <input type="radio" name="fl_radio" value=".box-item" /><b>Main Equipment: </b>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="box-items portfolio-items">
+              <div class="box-item f-content">
+                <div class="image">
+                  <a href="#main" class="has-popup-media">
+                    <img src="img/main.jpg" alt="Picture" />
+                    <span class="info">
+                      <span class="centrize full-width">
+                        <span class="vertical-center">
+                          <span class="ion ion-ios-plus-empty"></span>
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div class="desc">
+                  <div class="category">Overall photo</div>
+                </div>
+                <div id="main" class="popup-box mfp-fade mfp-hide">
+                  <div class="content">
+                    <div class="image">
+                      <img src="img/main.jpg" alt="Cardboard Box" /></div>
+                      <div class="desc">
+                        <div class="category">Server</div>
+                        <h4>Overall photo</h4>
+                        <div class="single-post-text">
+                          <p>
+           total memory: 560GB <br />
+           total storage: 20TB </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="box-item f-content">
+                <div class="image">
+                  <a href="#sv1" class="has-popup-media">
+                    <img src="img/sv1.jpg" alt="Picture" />
+                    <span class="info">
+                      <span class="centrize full-width">
+                        <span class="vertical-center">
+                          <span class="ion ion-ios-plus-empty"></span>
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div class="desc">
+                  <div class="category">SV1(Storage Server) 24-hour operation</div>
+                </div>
+                <div id="sv1" class="popup-box mfp-fade mfp-hide">
+                  <div class="content">
+                    <div class="image">
+                      <img src="img/sv1.jpg" alt="Picture" /></div>
+                      <div class="desc">
+                        <div class="category">Server</div>
+                        <h4>SV1(Storage Server) 24-hour operation</h4>
+                        <div class="single-post-text">
+                          <p>Model: Fujitsu Primergy RX1330 M4 <br />
+           CPU: Intel(R) Xeon(R) E-2124 <br />
+           Memory: PC4-2666V 16GB <br />
+           Storage: HGST HDD 2TB x4 (RAID10: 4TB) <br />
+           OS: TrueNAS </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-item f-content">
+                  <div class="image">
+                    <a href="#sv2" class="has-popup-media">
+                      <img src="img/sv2.jpg" alt="Picture" />
+                      <span class="info">
+                        <span class="centrize full-width">
+                          <span class="vertical-center">
+                            <span class="ion ion-ios-plus-empty"></span>
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="desc">
+                    <div class="category">SV2(Nothing) 24-hour operationなし</div>
+                  </div>
+                  <div id="sv2" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="img/sv2.jpg" alt="Picture" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Server</div>
+                        <h4>SV2(Nothing) 24-hour operationなし</h4>
+                        <div class="single-post-text">
+                          <p>Model: NEC Express5800/R120h-2M(HPE ProLiant DL380 Gen10) <br />
+           CPU: Intel(R) Xeon(R) Gold 6146 <br />
+           Memory: Micron PC4-2666V 32GBx4(128GB) DDR4 ECC <br />
+           Storage1: Micron M600 512GB <br />
+           Storage3: HP 10k SAS 600GB x2 (RAID1)<br />
+           OS: Ubuntu 18.04 </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-item f-content">
+                  <div class="image">
+                    <a href="#sv3" class="has-popup-media">
+                      <img src="img/sv3.jpg" alt="Picture" />
+                      <span class="info">
+                        <span class="centrize full-width">
+                          <span class="vertical-center">
+                            <span class="ion ion-ios-plus-empty"></span>
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="desc">
+                    <div class="category">SV3(Game Server) 24-hour operation</div>
+                  </div>
+                  <div id="sv3" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="img/sv3.jpg" alt="Picture" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Server</div>
+                        <h4>SV3(Game Server) 24-hour operation</h4>
+                        <div class="single-post-text">
+                          <p>Model: Dell PowerEdge R340 <br />
+           CPU: Intel(R) Xeon(R) E-2278G<br />
+           Memory: SKhynix PC4-2666V 16GBx4(64GB) DDR4 ECC <br />
+           Storage: Micron M500DC 800GB SSD x4 (RAID10: 1.6TB) <br />
+           OS: Ubuntu 18.04 (Pterodactyl Wings) </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-item f-content">
+                  <div class="image">
+                    <a href="#sv4" class="has-popup-media">
+                      <img src="img/sv4.jpg" alt="Picture" />
+                      <span class="info">
+                        <span class="centrize full-width">
+                          <span class="vertical-center">
+                            <span class="ion ion-ios-plus-empty"></span>
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="desc">
+                    <div class="category">SV4(Virtualization Server) 24-hour operation</div>
+                  </div>
+                  <div id="sv4" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="img/sv4.jpg" alt="Picture" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Server</div>
+                        <h4>SV4(Virtualization Server) 24-hour operation</h4>
+                        <div class="single-post-text">
+                          <p>Model: Dell PowerEdge R340 <br />
+           CPU: Intel(R) Xeon(R) E-2278G<br />
+           Memory: SKhynix PC4-2666V 16GBx4(64GB) DDR4 ECC <br />
+           Storage1: Samsung MZ-7KM240 240GB SSD <br />
+           Storage2: SanDisk X300S 512GB SSD <br />
+           Storage3: Micron M500DC 800GB SSD x2 (RAID1: 800GB) <br />
+           Storage4: Dell EMC 12K SAS 600GB x4 (RAID10: 1.2TB) <br />
+           OS: Proxmox </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-item f-content">
+                  <div class="image">
+                    <a href="#sv5" class="has-popup-media">
+                      <img src="img/sv5.jpg" alt="Picture" />
+                      <span class="info">
+                        <span class="centrize full-width">
+                          <span class="vertical-center">
+                            <span class="ion ion-ios-plus-empty"></span>
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="desc">
+                    <div class="category">SV5(TV Recording Server) 24-hour operation</div>
+                  </div>
+                  <div id="sv5" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="img/sv5.jpg" alt="Picture" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Server</div>
+                        <h4>SV5(TV Recording Server) 24-hour operation</h4>
+                        <div class="single-post-text">
+                          <p>Model: Dell EMC NX440 <br />
+           CPU: Intel(R) Xeon(R) E-2234 <br />
+           Memory: SKhynix PC4-2666V 16GB DDR4 ECC <br />
+           Storage: SEAGATE 4TB HDD SAS ST4000NM0025 x4 (RAID10 8TB) <br />
+           OS: Ubuntu 22.04 </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-item f-content">
+                    <div class="image">
+                      <a href="#test-server" class="has-popup-media">
+                        <img src="img/test-server.jpg" alt="Picture" />
+                        <span class="info">
+                          <span class="centrize full-width">
+                            <span class="vertical-center">
+                              <span class="ion ion-ios-plus-empty"></span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="category">Experiment Server</div>
+                    </div>
+                    <div id="test-server" class="popup-box mfp-fade mfp-hide">
+                      <div class="content">
+                        <div class="image">
+                          <img src="img/test-server.jpg" alt="Picture" />
+                        </div>
+                        <div class="desc">
+                          <div class="category">Server</div>
+                          <h4>Experiment Server</h4>
+                          <div class="single-post-text">
+                            <p>CPU: Intel Xeon Gold 5218<br />
+                              Memory: ATC PC4-2666V ECC REG 8GBx2 (16GB) <br />
+                              CPU Cooler: Dynatron L8 1U用簡易水冷<br />
+                              Motherboard: Supermicro X11SPI-TF <br />
+                              Case: Supermicro CSE-514 <br />
+                              Power Unit: Supermicro PWS-505P-1H 500W <br />
+                              Storage:  <br />
+                              - Intel SSD 750 Series 800GB <br />
+                              OS: Windows 11 Pro</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="box-item f-content">
+                  <div class="image">
+                    <a href="#main-pc" class="has-popup-media">
+                      <img src="img/main-pc.jpg" alt="Picture" />
+                      <span class="info">
+                        <span class="centrize full-width">
+                          <span class="vertical-center">
+                            <span class="ion ion-ios-plus-empty"></span>
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="desc">
+                    <div class="category">Main PC 24-hour operation</div>
+                  </div>
+                  <div id="main-pc" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="img/main-pc.jpg" alt="Picture" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">WorkStation</div>
+                        <h4>Main PC 24-hour operation</h4>
+                        <div class="single-post-text">
+                          <p>CPU: Intel Xeon W-3345 QS @ 3.00GHz <br />
+                            Memory: Micron PC4-3200AA ECC REG 32GB x8 (256GB) <br />
+                            CPU Cooler: Noctua NH-U12S DX-4189 <br />
+                            Motherboard: ASRock Rack SPC621D8 <br />
+                            GPU: MSI GeForce RTX 3080 Ti VENTUS 3X 12G OC <br />
+                            Case: Fractal Design Meshify 2 Compact Black <br />
+                            Power Unit: Seasonic PRIME PX-1300 1300W <br />
+                            Case Fan: Noctua NF-A14 PWM x2 / Noctua NF-F12 PWM x2 <br />
+                            Storage:  <br />
+                            - SOLIDIGM P41 Plus 1TB <br />
+                            - Samsung SM951a 512GB <br />
+                            - Samsung 980 PRO whth Heatsink 1TB <br />
+                            - WD Gold 2TB <br />
+                            - WD Gold 2TB <br />
+                            Other Cards:  <br />
+                            - Creative Sound Blaster Audigy PCIe RX7.1 <br />
+                            - TP-Link WiFi Archer TX50E <br />
+                            OS: Windows 11 Pro
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="box-item f-content">
+                  <div class="image">
+                    <a href="#sub-pc" class="has-popup-media">
+                      <img src="img/sub-pc.jpg" alt="Picture" />
+                      <span class="info">
+                        <span class="centrize full-width">
+                          <span class="vertical-center">
+                            <span class="ion ion-ios-plus-empty"></span>
+                          </span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="desc">
+                    <div class="category">Sub PC 24-hour operation</div>
+                  </div>
+                  <div id="sub-pc" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="img/sub-pc.jpg" alt="Picture" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">WorkStation</div>
+                        <h4>Sub PC 24-hour operation</h4>
+                        <div class="single-post-text">
+                          <p>CPU: Intel Xeon Silver 4116T @ 2.10GHz x2 <br />
+                            Memory: SKhynix PC4-2400T ECC REG 16GB <br />
+                            CPU Cooler: SilverStone SST-XE02-3647N x2 <br />
+                            Motherboard: Supermicro X11DPi-N <br />
+                            GPU: ASUS NVIDIA GeForce GTX1080Ti 12G <br />
+                            Case: Supermicro SYS-7037A-i <br />
+                            Power Unit: Supermicro PWS-903-PQ 900W <br />
+                            Storage: <br />
+                            - Toshiba XG5 KXG50ZNV512G 512GB NVMe <br />
+                            - Intel SSD 750 Series 400GB <br />
+                            Other Cards: <br />
+                            - Plex px-w3pe5 <br />
+                            OS: Windows 11 Pro
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section skills">
+                <div class="content">
+                  <div class="title">
+                    <div class="title_inner">Other Equipment:</div>
+                  </div>
+                  <div class="skills list">
+                    <ul>
+                      <li><div class="name">&#10004; Note PC(for management) 24-hour operation</div></li>
+                      <li><div class="name">&#10004; SoftBank BB-Unit (Network 1)</div></li>
+                      <li><div class="name">&#10004; Yamaha RTX1200 No.1 (Network 2)</div></li>
+                      <li><div class="name">&#10004; Yamaha RTX1210 No.2 (Network 3)</div></li>
+                      <li><div class="name">&#10004; Cisco Catalyst 2960-S</div></li>
+                      <li><div class="name">&#10004; Allied Telesis AR-x510-28GTX</div></li>
+                      <li><div class="name">&#10004; Govee Thermometer</div></li>
+                      <li><div class="name">&#10004; Surveillance Camera</div></li>
+                      <li><div class="name">&#10004; APC Smart-UPS 1500 No.1</div></li>
+                      <li><div class="name">&#10004; APC Smart-UPS 1500 No.2</div></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+        <<footer>
+          <div class="soc">
+            <a target="_blank" href="https://twitter.com/HomeDC_JP" title="Twitter"><span class="ion ion-social-twitter"></span></a>
+          </div>
+          <div class="copy"><b>Copyright © 2023 HomeDC Japan.</b></div>
+          <div class="clr"></div>
+        </footer>
+        <div class="line top"></div>
+        <div class="line bottom"></div>
+        <div class="line left"></div>
+        <div class="line right"></div></div>
+        <div class="s_overlay"></div>
+        <div class="content-sidebar">
+          <div class="sidebar-wrap">
+            <aside id="secondary" class="widget-area">
+              <section class="widget widget_recent_entries">
+                <h2 class="widget-title"><b>www.homedc.jp</b></h2>
+                <ul>
+                  <li><b>Welcome to the Plan to Build a Data Center in Your Home site!</b></li>
+                </ul>
+              </section>
+              <section class="widget widget_categories">
+                <h2 class="widget-title"><b>Category:</b></h2>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About HomeDC.jp</a></li>
+                  <li><a href="#">Server Configuration</a></li>
+                  <li><a href="status.html">Network Status</a></li>
+                  <li><a href="https://discord.com/invite/y5kGCGwN59">Discord Community</a></li>
+                  <li><a href="https://search-dns.homedc.jp/">DNS Lookup Tool</a></li>
+                  <li><a href="https://text.homedc.jp/">Text Tool</a></li>
+                </ul>
+              </section>
+            </aside>
+          </div>
+          <span class="close"></span>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="js/jquery.magnific-popup.js"></script>
+        <script src="js/imagesloaded.pkgd.js"></script>
+        <script src="js/isotope.pkgd.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/rrssb.js"></script>
+        <script src="js/simple-jekyll-search.js"></script>
+        <script src="js/glitche-scripts.js"></script>
+      </body>
+</html>
