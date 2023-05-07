@@ -106,7 +106,7 @@
               <div class="filters">
                 <div class="btn-group">
                   <label data-text="">
-                    <input type="radio" name="fl_radio" value=".box-item" /><b>メイン機材: </b>
+                    <input type="radio" name="fl_radio" value=".box-item" /><b>拠点1の機材: </b>
                   </label>
                 </div>
               </div>
@@ -136,11 +136,6 @@
                       <div class="desc">
                         <div class="category">サーバー</div>
                         <h4>全体写真</h4>
-                        <div class="single-post-text">
-                          <p>
-           合計メモリ: 560GB <br />
-           合計ストレージ: 20TB </p>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -169,11 +164,16 @@
                         <div class="category">サーバー</div>
                         <h4>SV1(ストレージサーバー) 24時間稼働</h4>
                         <div class="single-post-text">
-                          <p>モデル名: Fujitsu Primergy RX1330 M4 <br />
-           CPU: Intel(R) Xeon(R) E-2124 <br />
-           メモリー: PC4-2666V 16GB <br />
-           ストレージ: HGST HDD 2TB x4 (RAID10: 4TB) <br />
-           OS: TrueNAS </p>
+                          <p>CPU: Intel Xeon Silver 4214R<br />
+                            メモリ: ATC PC4-2666V ECC REG 8GBx2 (16GB) <br />
+                            CPUクーラー: SilverStone SST-XE02-3647N<br />
+                            マザーボード: Supermicro x11SPH-NCTPf <br />
+                            ケース: Chenbro RM23612 <br />
+                            電源ユニット: Supermicro <br />
+                            ストレージ:  <br />
+                            - HGST HDD 2TB x4 (RAID10: 4TB) <br />
+                            - SiliconPower P34A60 128GB <br />
+                            OS: Truenas</p>
                         </div>
                       </div>
                     </div>
@@ -193,7 +193,7 @@
                     </a>
                   </div>
                   <div class="desc">
-                    <div class="category">SV2(今の所なし) 24時間稼働なし</div>
+                    <div class="category">SV2(ゲームサーバー) 24時間稼働なし</div>
                   </div>
                   <div id="sv2" class="popup-box mfp-fade mfp-hide">
                     <div class="content">
@@ -202,14 +202,13 @@
                       </div>
                       <div class="desc">
                         <div class="category">サーバー</div>
-                        <h4>SV2(今の所なし) 24時間稼働なし</h4>
+                        <h4>SV2(ゲームサーバー) 24時間稼働なし</h4>
                         <div class="single-post-text">
-                          <p>モデル名: NEC Express5800/R120h-2M(HPE ProLiant DL380 Gen10) <br />
-           CPU: Intel(R) Xeon(R) Gold 6146 <br />
-           メモリー: Micron PC4-2666V 32GBx4(128GB) DDR4 ECC <br />
-           ストレージ1: Micron M600 512GB <br />
-           ストレージ3: HP 10k SAS 600GB x2 (RAID1)<br />
-           OS: Ubuntu 18.04 </p>
+                          <p>モデル名: Dell PowerEdge R350 <br />
+           CPU: Intel(R) Xeon(R) E-2356G<br />
+           メモリー: Micron PC4-3200AA 16GB DDR4 ECC <br />
+           ストレージ: 600GB SAS x2 <br />
+           OS: Windows Server 2022 </p>
                         </div>
                       </div>
                     </div>
@@ -229,7 +228,7 @@
                     </a>
                   </div>
                   <div class="desc">
-                    <div class="category">SV3(ゲームサーバー) 24時間稼働</div>
+                    <div class="category">SV3(仮想化サーバー) 24時間稼働</div>
                   </div>
                   <div id="sv3" class="popup-box mfp-fade mfp-hide">
                     <div class="content">
@@ -238,13 +237,15 @@
                       </div>
                       <div class="desc">
                         <div class="category">サーバー</div>
-                        <h4>SV3(ゲームサーバー) 24時間稼働</h4>
+                        <h4>SV3(仮想化サーバー) 24時間稼働</h4>
                         <div class="single-post-text">
                           <p>モデル名: Dell PowerEdge R340 <br />
            CPU: Intel(R) Xeon(R) E-2278G<br />
            メモリー: SKhynix PC4-2666V 16GBx4(64GB) DDR4 ECC <br />
-           ストレージ: Micron M500DC 800GB SSD x4 (RAID10: 1.6TB) <br />
-           OS: Ubuntu 18.04 (Pterodactyl Wings) </p>
+           ストレージ1: Samsung MZ-7KM240 240GB SSD <br />
+           ストレージ2: SanDisk X300S 512GB SSD <br />
+           ストレージ4: 600GB SAS x4 (RAID10: 1.2TB) <br />
+           OS: Virtfusion </p>
                         </div>
                       </div>
                     </div>
@@ -264,7 +265,7 @@
                     </a>
                   </div>
                   <div class="desc">
-                    <div class="category">SV4(仮想化サーバー) 24時間稼働</div>
+                    <div class="category">SV4(録画サーバー) 24時間稼働</div>
                   </div>
                   <div id="sv4" class="popup-box mfp-fade mfp-hide">
                     <div class="content">
@@ -273,45 +274,7 @@
                       </div>
                       <div class="desc">
                         <div class="category">サーバー</div>
-                        <h4>SV4(仮想化サーバー) 24時間稼働</h4>
-                        <div class="single-post-text">
-                          <p>モデル名: Dell PowerEdge R340 <br />
-           CPU: Intel(R) Xeon(R) E-2278G<br />
-           メモリー: SKhynix PC4-2666V 16GBx4(64GB) DDR4 ECC <br />
-           ストレージ1: Samsung MZ-7KM240 240GB SSD <br />
-           ストレージ2: SanDisk X300S 512GB SSD <br />
-           ストレージ3: Micron M500DC 800GB SSD x2 (RAID1: 800GB) <br />
-           ストレージ4: Dell EMC 12K SAS 600GB x4 (RAID10: 1.2TB) <br />
-           OS: Proxmox </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="box-item f-content">
-                  <div class="image">
-                    <a href="#sv5" class="has-popup-media">
-                      <img src="img/sv5.jpg" alt="Picture" />
-                      <span class="info">
-                        <span class="centrize full-width">
-                          <span class="vertical-center">
-                            <span class="ion ion-ios-plus-empty"></span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="desc">
-                    <div class="category">SV5(録画サーバー) 24時間稼働</div>
-                  </div>
-                  <div id="sv5" class="popup-box mfp-fade mfp-hide">
-                    <div class="content">
-                      <div class="image">
-                        <img src="img/sv5.jpg" alt="Picture" />
-                      </div>
-                      <div class="desc">
-                        <div class="category">サーバー</div>
-                        <h4>SV5(録画サーバー) 24時間稼働</h4>
+                        <h4>SV4(録画サーバー) 24時間稼働</h4>
                         <div class="single-post-text">
                           <p>モデル名: Dell EMC NX440 <br />
            CPU: Intel(R) Xeon(R) E-2234 <br />
@@ -323,139 +286,109 @@
                     </div>
                   </div>
                 </div>
-                <div class="box-item f-content">
-                    <div class="image">
-                      <a href="#test-server" class="has-popup-media">
-                        <img src="img/test-server.jpg" alt="Picture" />
-                        <span class="info">
-                          <span class="centrize full-width">
-                            <span class="vertical-center">
-                              <span class="ion ion-ios-plus-empty"></span>
-                            </span>
-                          </span>
-                        </span>
-                      </a>
+              </div>
+              <div class="section works">
+                <div class="content">
+                  <div class="filter-menu">
+                    <div class="filters">
+                      <div class="btn-group">
+                        <label data-text="">
+                          <input type="radio" name="fl_radio" value=".box-item" /><b>拠点2の機材: </b>
+                        </label>
+                      </div>
                     </div>
-                    <div class="desc">
-                      <div class="category">実験サーバー</div>
-                    </div>
-                    <div id="test-server" class="popup-box mfp-fade mfp-hide">
-                      <div class="content">
+                  </div>
+                  <br>
+                  <div class="box-items portfolio-items">
+                    <div class="box-item f-content">
                         <div class="image">
-                          <img src="img/test-server.jpg" alt="Picture" />
+                          <a href="#test-server" class="has-popup-media">
+                            <img src="img/test-server.jpg" alt="Picture" />
+                            <span class="info">
+                              <span class="centrize full-width">
+                                <span class="vertical-center">
+                                  <span class="ion ion-ios-plus-empty"></span>
+                                </span>
+                              </span>
+                            </span>
+                          </a>
                         </div>
                         <div class="desc">
-                          <div class="category">サーバー</div>
-                          <h4>実験サーバー</h4>
-                          <div class="single-post-text">
-                            <p>CPU: Intel Xeon Gold 5218<br />
-                              メモリ: ATC PC4-2666V ECC REG 8GBx2 (16GB) <br />
-                              CPUクーラー: Dynatron L8 1U用簡易水冷<br />
-                              マザーボード: Supermicro X11SPI-TF <br />
-                              ケース: Supermicro CSE-514 <br />
-                              電源ユニット: Supermicro PWS-505P-1H 500W <br />
-                              ストレージ:  <br />
-                              - Intel SSD 750 Series 800GB <br />
-                              OS: Windows 11 Pro</p>
+                          <div class="category">実験サーバー</div>
+                        </div>
+                        <div id="test-server" class="popup-box mfp-fade mfp-hide">
+                          <div class="content">
+                            <div class="image">
+                              <img src="img/test-server.jpg" alt="Picture" />
+                            </div>
+                            <div class="desc">
+                              <div class="category">サーバー</div>
+                              <h4>実験サーバー</h4>
+                              <div class="single-post-text">
+                                <p>CPU: Intel Xeon Gold 5218<br />
+                                  メモリ: ATC PC4-2666V ECC REG 8GBx2 (16GB) <br />
+                                  CPUクーラー: Dynatron L8 1U用簡易水冷<br />
+                                  マザーボード: Supermicro X11SPI-TF <br />
+                                  ケース: Supermicro CSE-514 <br />
+                                  電源ユニット: Supermicro PWS-505P-1H 500W <br />
+                                  ストレージ:  <br />
+                                  - Intel SSD 750 Series 800GB <br />
+                                  OS: Windows 11 Pro</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box-item f-content">
+                        <div class="image">
+                          <a href="#main-pc" class="has-popup-media">
+                            <img src="img/main-pc.jpg" alt="Picture" />
+                            <span class="info">
+                              <span class="centrize full-width">
+                                <span class="vertical-center">
+                                  <span class="ion ion-ios-plus-empty"></span>
+                                </span>
+                              </span>
+                            </span>
+                          </a>
+                        </div>
+                        <div class="desc">
+                          <div class="category">メインPC 24時間稼働</div>
+                        </div>
+                        <div id="main-pc" class="popup-box mfp-fade mfp-hide">
+                          <div class="content">
+                            <div class="image">
+                              <img src="img/main-pc.jpg" alt="Picture" />
+                            </div>
+                            <div class="desc">
+                              <div class="category">ワークステーション</div>
+                              <h4>メインPC 24時間稼働</h4>
+                              <div class="single-post-text">
+                                <p>CPU: Intel Xeon W-3345 QS @ 3.00GHz <br />
+                                  メモリ: Micron PC4-3200AA ECC REG 32GB x8 (256GB) <br />
+                                  CPUクーラー: Noctua NH-U12S DX-4189 <br />
+                                  マザーボード: ASRock Rack SPC621D8 <br />
+                                  GPU: MSI GeForce RTX 3080 Ti VENTUS 3X 12G OC <br />
+                                  ケース: Fractal Design Meshify 2 Compact Black <br />
+                                  電源ユニット: Seasonic PRIME PX-1300 1300W <br />
+                                  ケースファン: Noctua NF-A14 PWM x2 / Noctua NF-F12 PWM x2 <br />
+                                  ストレージ:  <br />
+                                  - SOLIDIGM P41 Plus 1TB <br />
+                                  - Samsung SM951a 512GB <br />
+                                  - Samsung 980 PRO whth Heatsink 1TB <br />
+                                  - WD Gold 2TB <br />
+                                  - WD Gold 2TB <br />
+                                  その他のカード:  <br />
+                                  - Creative Sound Blaster Audigy PCIe RX7.1 <br />
+                                  - TP-Link WiFi Archer TX50E <br />
+                                  OS: Windows 11 Pro
+                                </p>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                <div class="box-item f-content">
-                  <div class="image">
-                    <a href="#main-pc" class="has-popup-media">
-                      <img src="img/main-pc.jpg" alt="Picture" />
-                      <span class="info">
-                        <span class="centrize full-width">
-                          <span class="vertical-center">
-                            <span class="ion ion-ios-plus-empty"></span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="desc">
-                    <div class="category">メインPC 24時間稼働</div>
-                  </div>
-                  <div id="main-pc" class="popup-box mfp-fade mfp-hide">
-                    <div class="content">
-                      <div class="image">
-                        <img src="img/main-pc.jpg" alt="Picture" />
-                      </div>
-                      <div class="desc">
-                        <div class="category">ワークステーション</div>
-                        <h4>メインPC 24時間稼働</h4>
-                        <div class="single-post-text">
-                          <p>CPU: Intel Xeon W-3345 QS @ 3.00GHz <br />
-                            メモリ: Micron PC4-3200AA ECC REG 32GB x8 (256GB) <br />
-                            CPUクーラー: Noctua NH-U12S DX-4189 <br />
-                            マザーボード: ASRock Rack SPC621D8 <br />
-                            GPU: MSI GeForce RTX 3080 Ti VENTUS 3X 12G OC <br />
-                            ケース: Fractal Design Meshify 2 Compact Black <br />
-                            電源ユニット: Seasonic PRIME PX-1300 1300W <br />
-                            ケースファン: Noctua NF-A14 PWM x2 / Noctua NF-F12 PWM x2 <br />
-                            ストレージ:  <br />
-                            - SOLIDIGM P41 Plus 1TB <br />
-                            - Samsung SM951a 512GB <br />
-                            - Samsung 980 PRO whth Heatsink 1TB <br />
-                            - WD Gold 2TB <br />
-                            - WD Gold 2TB <br />
-                            その他のカード:  <br />
-                            - Creative Sound Blaster Audigy PCIe RX7.1 <br />
-                            - TP-Link WiFi Archer TX50E <br />
-                            OS: Windows 11 Pro
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div class="box-item f-content">
-                  <div class="image">
-                    <a href="#sub-pc" class="has-popup-media">
-                      <img src="img/sub-pc.jpg" alt="Picture" />
-                      <span class="info">
-                        <span class="centrize full-width">
-                          <span class="vertical-center">
-                            <span class="ion ion-ios-plus-empty"></span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="desc">
-                    <div class="category">サブPC 24時間稼働</div>
-                  </div>
-                  <div id="sub-pc" class="popup-box mfp-fade mfp-hide">
-                    <div class="content">
-                      <div class="image">
-                        <img src="img/sub-pc.jpg" alt="Picture" />
-                      </div>
-                      <div class="desc">
-                        <div class="category">ワークステーション</div>
-                        <h4>サブPC 24時間稼働</h4>
-                        <div class="single-post-text">
-                          <p>CPU: Intel Xeon Silver 4116T @ 2.10GHz x2 <br />
-                            メモリ: SKhynix PC4-2400T ECC REG 16GB <br />
-                            CPUクーラー: SilverStone SST-XE02-3647N x2 <br />
-                            マザーボード: Supermicro X11DPi-N <br />
-                            GPU: ASUS NVIDIA GeForce GTX1080Ti 12G <br />
-                            ケース: Supermicro SYS-7037A-i <br />
-                            電源ユニット: Supermicro PWS-903-PQ 900W <br />
-                            ストレージ: <br />
-                            - Toshiba XG5 KXG50ZNV512G 512GB NVMe <br />
-                            - Intel SSD 750 Series 400GB <br />
-                            その他のカード: <br />
-                            - Plex px-w3pe5 <br />
-                            OS: Windows 11 Pro
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="section skills">
                 <div class="content">
                   <div class="title">
@@ -465,10 +398,10 @@
                     <ul>
                       <li><div class="name">&#10004; ノートパソコン(管理用) 24時間稼働</div></li>
                       <li><div class="name">&#10004; SoftBank BBユニット (ネットワーク1)</div></li>
-                      <li><div class="name">&#10004; Yamaha RTX1200 No.1 (ネットワーク2)</div></li>
-                      <li><div class="name">&#10004; Yamaha RTX1210 No.2 (ネットワーク3)</div></li>
-                      <li><div class="name">&#10004; Cisco Catalyst 2960-S</div></li>
-                      <li><div class="name">&#10004; Allied Telesis AR-x510-28GTX</div></li>
+                      <li><div class="name">&#10004; Dream Machine Special Edition (ネットワーク2)</div></li>
+                      <li><div class="name">&#10004; Yamaha RTX1210 (ネットワーク3)</div></li>
+                      <li><div class="name">&#10004; Switch Pro 48 PoE</div></li>
+                      <li><div class="name">&#10004; Switch Pro Aggregation</div></li>
                       <li><div class="name">&#10004; Govee 温度計</div></li>
                       <li><div class="name">&#10004; 監視カメラ</div></li>
                       <li><div class="name">&#10004; APC Smart-UPS 1500 No.1</div></li>
@@ -481,7 +414,7 @@
             </div>
           </div>
         </div>
-        <<footer>
+        <footer>
           <div class="soc">
             <a target="_blank" href="https://twitter.com/HomeDC_JP" title="Twitter"><span class="ion ion-social-twitter"></span></a>
             <a target="_blank" href="https://www.facebook.com/people/Home-DC-Japan/100089576975878/" title="FaceBook"><span class="ion ion-social-facebook"></span></a>
