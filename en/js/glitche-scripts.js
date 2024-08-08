@@ -341,3 +341,23 @@ $(function () {
 		Search
 	*/
 });
+
+
+// スクロール量の閾値を設定
+const scrollThreshold = 300; // 例えば100px
+
+// ヘッダー要素を取得
+const header = document.querySelector('header');
+
+// スクロールイベントを監視
+window.addEventListener('scroll', function() {
+    // 現在のスクロール位置を取得
+    const scrollPosition = window.scrollY;
+
+    // スクロール位置が閾値を超えた場合にクラスを追加、超えていない場合にクラスを削除
+    if (scrollPosition > scrollThreshold) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
