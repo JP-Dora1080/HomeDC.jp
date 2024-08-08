@@ -34,29 +34,32 @@
   <link rel="stylesheet" href="css/owl.carousel.css" />
   <link rel="stylesheet" href="css/syntax.css" />
   <link rel="stylesheet" href="css/white.css" />
+  <link rel="stylesheet" href="css/background.css" />
   <link rel="icon" href="favicon.ico">
-
-  <style>
-  ::-webkit-scrollbar
-  {
-  width: 6px;
-  }
-  ::-webkit-scrollbar-track
-  {
-  background: #f1f1f1;
-  }
-  ::-webkit-scrollbar-thumb
-  {
-  background: rgb(0, 155, 245);
-  }
-  ::-webkit-scrollbar-thumb:hover
-  {
-  background: #555;
-  }
-  </style>
 
   </head>
   <body class=" home">
+
+    <div class="gradient-bg">
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="gradients-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="interactive"></div>
+      </div>
+    </div>
+
     <div class="preloader">
       <div class="centrize full-width">
         <div class="vertical-center">
@@ -294,18 +297,18 @@
                   </div>
                   <div class="skills list">
                     <ul>
-                      <li><div class="name">&#10004; ノートパソコン(管理用) 24時間稼働</div></li>
-                      <li><div class="name">&#10004; SoftBank BBユニット (ネットワーク1)</div></li>
-                      <li><div class="name">&#10004; Dream Machine Special Edition (ネットワーク2)</div></li>
-                      <li><div class="name">&#10004; Yamaha RTX1200 (ネットワーク3)</div></li>
-                      <li><div class="name">&#10004; Switch Pro 48 PoE</div></li>
-                      <li><div class="name">&#10004; Switch Pro Aggregation</div></li>
-                      <li><div class="name">&#10004; Govee 温度計</div></li>
-                      <li><div class="name">&#10004; 監視カメラ</div></li>
-                      <li><div class="name">&#10004; APC Smart-UPS 1500 No.1</div></li>
-                      <li><div class="name">&#10004; APC Smart-UPS 1500 No.2</div></li>
-                      <li><div class="name">&#10004; Raritan PX3-5138 No.1</div></li>
-                      <li><div class="name">&#10004; Raritan PX3-5138 No.2</div></li>
+                      <li><div class="name">ノートパソコン(管理用) 24時間稼働</div></li>
+                      <li><div class="name">SoftBank BBユニット (ネットワーク1)</div></li>
+                      <li><div class="name">Dream Machine Special Edition (ネットワーク2)</div></li>
+                      <li><div class="name">Yamaha RTX1200 (ネットワーク3)</div></li>
+                      <li><div class="name">Switch Pro 48 PoE</div></li>
+                      <li><div class="name">Switch Pro Aggregation</div></li>
+                      <li><div class="name">Govee 温度計</div></li>
+                      <li><div class="name">監視カメラ</div></li>
+                      <li><div class="name">APC Smart-UPS 1500 No.1</div></li>
+                      <li><div class="name">APC Smart-UPS 1500 No.2</div></li>
+                      <li><div class="name">Raritan PX3-5138 No.1</div></li>
+                      <li><div class="name">Raritan PX3-5138 No.2</div></li>
                     </ul>
                   </div>
                 </div>
@@ -572,12 +575,12 @@
                               </div>
                               <div class="skills list">
                                 <ul>
-                                  <li><div class="name">&#10004; Aruba 1930 24P</div></li>
-                                  <li><div class="name">&#10004; Allied Telesis AT-GS910/10XST</div></li>
-                                  <li><div class="name">&#10004; SwitchBot 温度計</div></li>
-                                  <li><div class="name">&#10004; DigiPower SAT-SWH-1511A-08N1</div></li>
-                                  <li><div class="name">&#10004; StarTech.com KVM Switch</div></li>
-                                  <li><div class="name">&#10004; APC Smart-UPS X3000</div></li>
+                                  <li><div class="name">Aruba 1930 24P</div></li>
+                                  <li><div class="name">Allied Telesis AT-GS910/10XST</div></li>
+                                  <li><div class="name">SwitchBot 温度計</div></li>
+                                  <li><div class="name">DigiPower SAT-SWH-1511A-08N1</div></li>
+                                  <li><div class="name">StarTech.com KVM Switch</div></li>
+                                  <li><div class="name">APC Smart-UPS X3000</div></li>
                                 </ul>
                               </div>
                             </div>
@@ -635,5 +638,6 @@
         <script src="js/rrssb.js"></script>
         <script src="js/simple-jekyll-search.js"></script>
         <script src="js/glitche-scripts.js"></script>
+        <script src="js/background.js"></script>
       </body>
 </html>
