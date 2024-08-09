@@ -362,7 +362,7 @@ function onScroll() {
 
 // ウィンドウのリサイズイベントハンドラーを定義
 function onResize() {
-    if (window.innerWidth > 768) { // 例えば768px以上の場合はデスクトップとみなす
+    if (window.innerWidth > 840) { // 例えば768px以上の場合はデスクトップとみなす
         window.addEventListener('scroll', onScroll);
     } else {
         window.removeEventListener('scroll', onScroll);
