@@ -349,15 +349,27 @@ const scrollThreshold = 300; // 例えば100px
 // ヘッダー要素を取得
 const header = document.querySelector('header');
 
-// スクロールイベントを監視
-window.addEventListener('scroll', function() {
-    // 現在のスクロール位置を取得
+// スクロールイベントハンドラーを定義
+function onScroll() {
     const scrollPosition = window.scrollY;
 
-    // スクロール位置が閾値を超えた場合にクラスを追加、超えていない場合にクラスを削除
     if (scrollPosition > scrollThreshold) {
         header.classList.add('scrolled');
     } else {
         header.classList.remove('scrolled');
     }
-});
+}
+
+// ウィンドウのリサイズイベントハンドラーを定義
+function onResize() {
+    if (window.innerWidth > 768) { // 例えば768px以上の場合はデスクトップとみなす
+        window.addEventListener('scroll', onScroll);
+    } else {
+        window.removeEventListener('scroll', onScroll);
+        header.classList.remove('scrolled'); // モバイル時はクラスをリセット
+    }
+}
+
+// 初期化
+onResize(); // 初回実行
+window.addEventListener('resize', onResize); // リサイズ時に実行
