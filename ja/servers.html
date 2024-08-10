@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta charset="UTF-8">
-  <meta author="Veulx">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="author" content="Veulx">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HomeDC Japan | サーバー構成について</title>
   <meta name="description" content="このサイトは、逸般の誤家庭データセンター計画のサイトです。">
-  <meta name="keywords" content="HomeDC, HomeDC.jp, HomeDC japan" />
+  <meta name="keywords" content="HomeDC, HomeDC.jp, HomeDC japan">
   <meta name="format-detection" content="telephone=no,address=no,email=no">
   <meta property="og:title" content="ここをクリックして、サイトを開く">
   <meta property="og:type" content="website">
@@ -19,91 +20,382 @@
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://www.homedc.jp/ja/img/pr_1.png">
-  <meta property="og:image:secure_url" content="https://www.homedc.jp/ja/img/pr_1.png" />
-  <meta property="og:image:alt" content="HomeDC JP" />
-  <meta name="theme-color" content="#54f9ff" />
+  <meta property="og:image:secure_url" content="https://www.homedc.jp/ja/img/pr_1.png">
+  <meta property="og:image:alt" content="HomeDC JP">
+  <meta name="theme-color" content="#54f9ff">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Cache-Control" content="no-cache">
-
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&subset=latin,cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/ionicons.css" />
-  <link rel="stylesheet" href="css/magnific-popup.css" />
-  <link rel="stylesheet" href="css/animate.css" />
-  <link rel="stylesheet" href="css/owl.carousel.css" />
-  <link rel="stylesheet" href="css/syntax.css" />
-  <link rel="stylesheet" href="css/white.css" />
-  <link rel="stylesheet" href="css/background.css" />
+  <link rel="stylesheet" href="css/ionicons.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/white.css">
+  <link rel="stylesheet" href="css/background.css">
   <link rel="icon" href="favicon.ico">
+</head>
 
-  </head>
-  <body class=" home">
-
-    <div class="gradient-bg">
-      <svg xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <filter id="goo">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
-            <feBlend in="SourceGraphic" in2="goo" />
-          </filter>
-        </defs>
-      </svg>
-      <div class="gradients-container">
-        <div class="g1"></div>
-        <div class="g2"></div>
-        <div class="g3"></div>
-        <div class="g4"></div>
-        <div class="g5"></div>
-        <div class="interactive"></div>
+<body class="home">
+  <div class="gradient-bg">
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="goo">
+          <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur">
+          </fegaussianblur>
+          <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo">
+          </fecolormatrix>
+          <feblend in="SourceGraphic" in2="goo">
+          </feblend>
+        </filter>
+      </defs>
+    </svg>
+    <div class="gradients-container">
+      <div class="g1">
+      </div>
+      <div class="g2">
+      </div>
+      <div class="g3">
+      </div>
+      <div class="g4">
+      </div>
+      <div class="g5">
+      </div>
+      <div class="interactive">
       </div>
     </div>
-
-    <div class="preloader">
-      <div class="centrize full-width">
-        <div class="vertical-center">
-          <div class="pre-inner">
-            <div class="load typing-load"><p>逸般の誤家庭</p></div>
-            <span class="typed-load"></span>
+  </div>
+  <div class="preloader">
+    <div class="centrize full-width">
+      <div class="vertical-center">
+        <div class="pre-inner">
+          <div class="load typing-load">
+            <p>逸般の誤家庭</p>
           </div>
+          <span class="typed-load">
+          </span>
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <header>
-        <div class="head-top">
-          <span class="sidebar_btn"><span></span></span>
-          <a href="#" class="menu-btn"><span></span></a>
-          <div class="top-menu">
-            <ul>
-              <li><a href="index.html"><b>ホーム</b></a></li>
-              <li><a href="about.html"><b>HomeDC.jpについて</b></a></li>
-              <li><a href="servers.html"><b>サーバー構成</b></a></li>
-              <li><a href="status.html"><b>ネットワーク状況</b></a></li>
-              <li><a href="https://discord.com/invite/y5kGCGwN59"><b>Discordコミュニティー</b></a></li>
-              <li><a href="https://search-dns.homedc.jp/"><b>DNS検索ツール</b></a></li>
-              <li><a href="https://text.homedc.jp/"><b>テキストツール</b></a></li>
-            </ul>
+  </div>
+  <div class="container">
+    <header>
+      <div class="head-top">
+        <span class="sidebar_btn">
+          <span>
+          </span>
+        </span>
+        <a href="#" class="menu-btn">
+          <span>
+          </span>
+        </a>
+        <div class="top-menu">
+          <ul>
+            <li>
+              <a href="index.html">
+                <b>ホーム</b>
+              </a>
+            </li>
+            <li>
+              <a href="about.html">
+                <b>HomeDC.jpについて</b>
+              </a>
+            </li>
+            <li>
+              <a href="servers.html">
+                <b>サーバー構成</b>
+              </a>
+            </li>
+            <li>
+              <a href="status.html">
+                <b>ネットワーク状況</b>
+              </a>
+            </li>
+            <li>
+              <a href="https://discord.com/invite/y5kGCGwN59">
+                <b>Discordコミュニティー</b>
+              </a>
+            </li>
+            <li>
+              <a href="https://search-dns.homedc.jp/">
+                <b>DNS検索ツール</b>
+              </a>
+            </li>
+            <li>
+              <a href="https://text.homedc.jp/">
+                <b>テキストツール</b>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="section started">
+        <div class="centrize full-width">
+          <div class="vertical-center">
+            <div class="started-content">
+              <div class="h-title" data-text="サーバーの構造について">サーバーの構造について</div>
+              <div class="h-subtitle typing-bread">
+                <p>
+                  <a href="index.html">ホーム</a>/
+                  <a href="servers.html">サーバーの構造について</a>
+                </p>
+              </div>
+              <span class="typed-bread">
+              </span>
+            </div>
           </div>
         </div>
-      </header>
-
-      <div class="wrapper">
-        <div class="section started">
-          <div class="centrize full-width">
-            <div class="vertical-center">
-              <div class="started-content">
-                <div class="h-title" data-text="サーバーの構造について">サーバーの構造について</div>
-                <div class="h-subtitle typing-bread">
-                  <p><a href="index.html">ホーム</a> / <a href="servers.html">サーバーの構造について</a></p>
-                </div>
-                <span class="typed-bread"></span>
+        <a href="#" class="mouse_btn">
+          <span class="ion ion-mouse">
+          </span>
+        </a>
+      </div>
+      <div class="section works">
+        <div class="content">
+          <div class="filter-menu">
+            <div class="filters">
+              <div class="btn-group">
+                <label data-text="">
+                  <input type="radio" name="fl_radio" value=".box-item">
+                  <b>拠点1の機材:</b>
+                </label>
               </div>
             </div>
           </div>
-          <a href="#" class="mouse_btn"><span class="ion ion-mouse"></span></a>
+          <br>
+          <div class="box-items portfolio-items">
+            <div class="box-item f-content">
+              <div class="image">
+                <a href="#main" class="has-popup-media">
+                  <img src="img/main.jpg" alt="Picture">
+                  <span class="info">
+                    <span class="centrize full-width">
+                      <span class="vertical-center">
+                        <span class="ion ion-ios-plus-empty">
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div class="desc">
+                <div class="category">全体写真</div>
+              </div>
+              <div id="main" class="popup-box mfp-fade mfp-hide">
+                <div class="content">
+                  <div class="image">
+                    <img src="img/main.jpg" alt="Cardboard Box">
+                  </div>
+                  <div class="desc">
+                    <div class="category">サーバー</div>
+                    <h4>全体写真</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-item f-content">
+              <div class="image">
+                <a href="#sv1" class="has-popup-media">
+                  <img src="img/sv1.jpg" alt="Picture">
+                  <span class="info">
+                    <span class="centrize full-width">
+                      <span class="vertical-center">
+                        <span class="ion ion-ios-plus-empty">
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div class="desc">
+                <div class="category">SV1(ストレージサーバー) 24時間稼働</div>
+              </div>
+              <div id="sv1" class="popup-box mfp-fade mfp-hide">
+                <div class="content">
+                  <div class="image">
+                    <img src="img/sv1.jpg" alt="Picture">
+                  </div>
+                  <div class="desc">
+                    <div class="category">サーバー</div>
+                    <h4>SV1(ストレージサーバー) 24時間稼働</h4>
+                    <div class="single-post-text">
+                      <p>CPU: Intel Xeon Silver 4112
+                        <br>メモリ: ATC PC4-2666V ECC RDIMM 8GBx2 (16GB)
+                        <br>CPUクーラー: SilverStone SST-XE02-3647N
+                        <br>マザーボード: Supermicro x11SPH-NCTPf
+                        <br>ケース: Chenbro RM23612
+                        <br>電源ユニット: Supermicro
+                        <br>ストレージ:
+                        <br>- HGST HDD 2TB x4 (RAID10: 4TB)
+                        <br>- SiliconPower P34A60 128GB
+                        <br>OS: Truenas</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-item f-content">
+              <div class="image">
+                <a href="#sv2" class="has-popup-media">
+                  <img src="img/sv2.jpg" alt="Picture">
+                  <span class="info">
+                    <span class="centrize full-width">
+                      <span class="vertical-center">
+                        <span class="ion ion-ios-plus-empty">
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div class="desc">
+                <div class="category">SV2(ゲームサーバー) 24時間稼働なし</div>
+              </div>
+              <div id="sv2" class="popup-box mfp-fade mfp-hide">
+                <div class="content">
+                  <div class="image">
+                    <img src="img/sv2.jpg" alt="Picture">
+                  </div>
+                  <div class="desc">
+                    <div class="category">サーバー</div>
+                    <h4>SV2(ゲームサーバー) 24時間稼働なし</h4>
+                    <div class="single-post-text">
+                      <p>モデル名: Dell PowerEdge R350
+                        <br>CPU: Intel(R) Xeon(R) E-2356G
+                        <br>メモリー: Micron PC4-3200AA 16GB DDR4 RDIMM ECC
+                        <br>ストレージ: 600GB SAS x2
+                        <br>OS: Windows Server 2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-item f-content">
+              <div class="image">
+                <a href="#sv3" class="has-popup-media">
+                  <img src="img/sv3.jpg" alt="Picture">
+                  <span class="info">
+                    <span class="centrize full-width">
+                      <span class="vertical-center">
+                        <span class="ion ion-ios-plus-empty">
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div class="desc">
+                <div class="category">SV3(仮想化サーバー) 24時間稼働</div>
+              </div>
+              <div id="sv3" class="popup-box mfp-fade mfp-hide">
+                <div class="content">
+                  <div class="image">
+                    <img src="img/sv3.jpg" alt="Picture">
+                  </div>
+                  <div class="desc">
+                    <div class="category">サーバー</div>
+                    <h4>SV3(仮想化サーバー) 24時間稼働</h4>
+                    <div class="single-post-text">
+                      <p>モデル名: Dell PowerEdge R340
+                        <br>CPU: Intel(R) Xeon(R) E-2278G
+                        <br>メモリー: SKhynix PC4-2666V DDR4 ECC 16GBx4(64GB)
+                        <br>ストレージ1: Samsung MZ-7KM240 240GB SSD
+                        <br>ストレージ2: SanDisk X300S 512GB SSD
+                        <br>ストレージ4: 600GB SAS x4 (RAID10: 1.2TB)
+                        <br>OS: Virtfusion</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-item f-content">
+              <div class="image">
+                <a href="#sv4" class="has-popup-media">
+                  <img src="img/sv4.jpg" alt="Picture">
+                  <span class="info">
+                    <span class="centrize full-width">
+                      <span class="vertical-center">
+                        <span class="ion ion-ios-plus-empty">
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div class="desc">
+                <div class="category">SV4(録画サーバー) 24時間稼働</div>
+              </div>
+              <div id="sv4" class="popup-box mfp-fade mfp-hide">
+                <div class="content">
+                  <div class="image">
+                    <img src="img/sv4.jpg" alt="Picture">
+                  </div>
+                  <div class="desc">
+                    <div class="category">サーバー</div>
+                    <h4>SV4(録画サーバー) 24時間稼働</h4>
+                    <div class="single-post-text">
+                      <p>モデル名: Dell EMC NX440
+                        <br>CPU: Intel(R) Xeon(R) E-2234
+                        <br>メモリー: SKhynix PC4-2666V 16GB DDR4 ECC
+                        <br>ストレージ: SEAGATE 4TB HDD SAS ST4000NM0025 x4 (RAID10 8TB)
+                        <br>OS: Ubuntu 22.04</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section skills">
+          <div class="content">
+            <div class="title">
+              <div class="title_inner">その他の機材:</div>
+            </div>
+            <div class="skills list">
+              <ul>
+                <li>
+                  <div class="name">ノートパソコン(管理用) 24時間稼働</div>
+                </li>
+                <li>
+                  <div class="name">SoftBank BBユニット (ネットワーク1)</div>
+                </li>
+                <li>
+                  <div class="name">Dream Machine Special Edition (ネットワーク2)</div>
+                </li>
+                <li>
+                  <div class="name">Yamaha RTX1200 (ネットワーク3)</div>
+                </li>
+                <li>
+                  <div class="name">Switch Pro 48 PoE</div>
+                </li>
+                <li>
+                  <div class="name">Switch Pro Aggregation</div>
+                </li>
+                <li>
+                  <div class="name">Govee 温度計</div>
+                </li>
+                <li>
+                  <div class="name">監視カメラ</div>
+                </li>
+                <li>
+                  <div class="name">APC Smart-UPS 1500 No.1</div>
+                </li>
+                <li>
+                  <div class="name">APC Smart-UPS 1500 No.2</div>
+                </li>
+                <li>
+                  <div class="name">Raritan PX3-5138 No.1</div>
+                </li>
+                <li>
+                  <div class="name">Raritan PX3-5138 No.2</div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="section works">
           <div class="content">
@@ -111,7 +403,8 @@
               <div class="filters">
                 <div class="btn-group">
                   <label data-text="">
-                    <input type="radio" name="fl_radio" value=".box-item" /><b>拠点1の機材: </b>
+                    <input type="radio" name="fl_radio" value=".box-item">
+                    <b>拠点2の機材:</b>
                   </label>
                 </div>
               </div>
@@ -120,12 +413,13 @@
             <div class="box-items portfolio-items">
               <div class="box-item f-content">
                 <div class="image">
-                  <a href="#main" class="has-popup-media">
-                    <img src="img/main.jpg" alt="Picture" />
+                  <a href="#main2" class="has-popup-media">
+                    <img src="img/main2.jpg" alt="Picture">
                     <span class="info">
                       <span class="centrize full-width">
                         <span class="vertical-center">
-                          <span class="ion ion-ios-plus-empty"></span>
+                          <span class="ion ion-ios-plus-empty">
+                          </span>
                         </span>
                       </span>
                     </span>
@@ -134,512 +428,359 @@
                 <div class="desc">
                   <div class="category">全体写真</div>
                 </div>
-                <div id="main" class="popup-box mfp-fade mfp-hide">
+                <div id="main2" class="popup-box mfp-fade mfp-hide">
                   <div class="content">
                     <div class="image">
-                      <img src="img/main.jpg" alt="Cardboard Box" /></div>
-                      <div class="desc">
-                        <div class="category">サーバー</div>
-                        <h4>全体写真</h4>
-                      </div>
+                      <img src="img/main2.jpg" alt="Cardboard Box">
+                    </div>
+                    <div class="desc">
+                      <div class="category">サーバー</div>
+                      <h4>全体写真</h4>
                     </div>
                   </div>
                 </div>
+              </div>
               <div class="box-item f-content">
                 <div class="image">
-                  <a href="#sv1" class="has-popup-media">
-                    <img src="img/sv1.jpg" alt="Picture" />
+                  <a href="#test-server" class="has-popup-media">
+                    <img src="img/test-server.jpg" alt="Picture">
                     <span class="info">
                       <span class="centrize full-width">
                         <span class="vertical-center">
-                          <span class="ion ion-ios-plus-empty"></span>
+                          <span class="ion ion-ios-plus-empty">
+                          </span>
                         </span>
                       </span>
                     </span>
                   </a>
                 </div>
                 <div class="desc">
-                  <div class="category">SV1(ストレージサーバー) 24時間稼働</div>
+                  <div class="category">実験サーバー 24時間なし</div>
                 </div>
-                <div id="sv1" class="popup-box mfp-fade mfp-hide">
+                <div id="test-server" class="popup-box mfp-fade mfp-hide">
                   <div class="content">
                     <div class="image">
-                      <img src="img/sv1.jpg" alt="Picture" /></div>
-                      <div class="desc">
-                        <div class="category">サーバー</div>
-                        <h4>SV1(ストレージサーバー) 24時間稼働</h4>
-                        <div class="single-post-text">
-                          <p>CPU: Intel Xeon Silver 4112<br />
-                            メモリ: ATC PC4-2666V ECC RDIMM 8GBx2 (16GB) <br />
-                            CPUクーラー: SilverStone SST-XE02-3647N<br />
-                            マザーボード: Supermicro x11SPH-NCTPf <br />
-                            ケース: Chenbro RM23612 <br />
-                            電源ユニット: Supermicro <br />
-                            ストレージ:  <br />
-                            - HGST HDD 2TB x4 (RAID10: 4TB) <br />
-                            - SiliconPower P34A60 128GB <br />
-                            OS: Truenas</p>
-                        </div>
-                      </div>
+                      <img src="img/test-server.jpg" alt="Picture">
                     </div>
-                  </div>
-                </div>
-                <div class="box-item f-content">
-                  <div class="image">
-                    <a href="#sv2" class="has-popup-media">
-                      <img src="img/sv2.jpg" alt="Picture" />
-                      <span class="info">
-                        <span class="centrize full-width">
-                          <span class="vertical-center">
-                            <span class="ion ion-ios-plus-empty"></span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="desc">
-                    <div class="category">SV2(ゲームサーバー) 24時間稼働なし</div>
-                  </div>
-                  <div id="sv2" class="popup-box mfp-fade mfp-hide">
-                    <div class="content">
-                      <div class="image">
-                        <img src="img/sv2.jpg" alt="Picture" />
-                      </div>
-                      <div class="desc">
-                        <div class="category">サーバー</div>
-                        <h4>SV2(ゲームサーバー) 24時間稼働なし</h4>
-                        <div class="single-post-text">
-                          <p>モデル名: Dell PowerEdge R350 <br />
-           CPU: Intel(R) Xeon(R) E-2356G<br />
-           メモリー: Micron PC4-3200AA 16GB DDR4 RDIMM ECC <br />
-           ストレージ: 600GB SAS x2 <br />
-           OS: Windows Server 2022 </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="box-item f-content">
-                  <div class="image">
-                    <a href="#sv3" class="has-popup-media">
-                      <img src="img/sv3.jpg" alt="Picture" />
-                      <span class="info">
-                        <span class="centrize full-width">
-                          <span class="vertical-center">
-                            <span class="ion ion-ios-plus-empty"></span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="desc">
-                    <div class="category">SV3(仮想化サーバー) 24時間稼働</div>
-                  </div>
-                  <div id="sv3" class="popup-box mfp-fade mfp-hide">
-                    <div class="content">
-                      <div class="image">
-                        <img src="img/sv3.jpg" alt="Picture" />
-                      </div>
-                      <div class="desc">
-                        <div class="category">サーバー</div>
-                        <h4>SV3(仮想化サーバー) 24時間稼働</h4>
-                        <div class="single-post-text">
-                          <p>モデル名: Dell PowerEdge R340 <br />
-           CPU: Intel(R) Xeon(R) E-2278G<br />
-           メモリー: SKhynix PC4-2666V DDR4 ECC 16GBx4(64GB)<br />
-           ストレージ1: Samsung MZ-7KM240 240GB SSD <br />
-           ストレージ2: SanDisk X300S 512GB SSD <br />
-           ストレージ4: 600GB SAS x4 (RAID10: 1.2TB) <br />
-           OS: Virtfusion </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="box-item f-content">
-                  <div class="image">
-                    <a href="#sv4" class="has-popup-media">
-                      <img src="img/sv4.jpg" alt="Picture" />
-                      <span class="info">
-                        <span class="centrize full-width">
-                          <span class="vertical-center">
-                            <span class="ion ion-ios-plus-empty"></span>
-                          </span>
-                        </span>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="desc">
-                    <div class="category">SV4(録画サーバー) 24時間稼働</div>
-                  </div>
-                  <div id="sv4" class="popup-box mfp-fade mfp-hide">
-                    <div class="content">
-                      <div class="image">
-                        <img src="img/sv4.jpg" alt="Picture" />
-                      </div>
-                      <div class="desc">
-                        <div class="category">サーバー</div>
-                        <h4>SV4(録画サーバー) 24時間稼働</h4>
-                        <div class="single-post-text">
-                          <p>モデル名: Dell EMC NX440 <br />
-           CPU: Intel(R) Xeon(R) E-2234 <br />
-           メモリー: SKhynix PC4-2666V 16GB DDR4 ECC <br />
-           ストレージ: SEAGATE 4TB HDD SAS ST4000NM0025 x4 (RAID10 8TB) <br />
-           OS: Ubuntu 22.04 </p>
-                        </div>
+                    <div class="desc">
+                      <div class="category">サーバー</div>
+                      <h4>実験サーバー 24時間なし</h4>
+                      <div class="single-post-text">
+                        <p>CPU: Intel Xeon Gold 5218
+                          <br>メモリ: v-color Hynix PC4-2933Y ECC RDIMM 16GBx2 (32GB)
+                          <br>CPUクーラー: Dynatron L8 1U用簡易水冷
+                          <br>マザーボード: Supermicro X11SPI-TF
+                          <br>ケース: Supermicro CSE-514
+                          <br>電源ユニット: Supermicro PWS-505P-1H 500W
+                          <br>ストレージ:
+                          <br>- Intel SSD 750 Series 800GB
+                          <br>イーサネット: Supermicro AOC-STG-B4S Add-on Card 10GbE
+                          <br>OS: Windows 11 Pro</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="section skills">
-                <div class="content">
-                  <div class="title">
-                    <div class="title_inner">その他の機材:</div>
-                  </div>
-                  <div class="skills list">
-                    <ul>
-                      <li><div class="name">ノートパソコン(管理用) 24時間稼働</div></li>
-                      <li><div class="name">SoftBank BBユニット (ネットワーク1)</div></li>
-                      <li><div class="name">Dream Machine Special Edition (ネットワーク2)</div></li>
-                      <li><div class="name">Yamaha RTX1200 (ネットワーク3)</div></li>
-                      <li><div class="name">Switch Pro 48 PoE</div></li>
-                      <li><div class="name">Switch Pro Aggregation</div></li>
-                      <li><div class="name">Govee 温度計</div></li>
-                      <li><div class="name">監視カメラ</div></li>
-                      <li><div class="name">APC Smart-UPS 1500 No.1</div></li>
-                      <li><div class="name">APC Smart-UPS 1500 No.2</div></li>
-                      <li><div class="name">Raritan PX3-5138 No.1</div></li>
-                      <li><div class="name">Raritan PX3-5138 No.2</div></li>
-                    </ul>
+              <div class="box-item f-content">
+                <div class="image">
+                  <a href="#ai-server1" class="has-popup-media">
+                    <img src="img/ai-server1.jpg" alt="Picture">
+                    <span class="info">
+                      <span class="centrize full-width">
+                        <span class="vertical-center">
+                          <span class="ion ion-ios-plus-empty">
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div class="desc">
+                  <div class="category">AIサーバー No.1 24時間稼働</div>
+                </div>
+                <div id="ai-server1" class="popup-box mfp-fade mfp-hide">
+                  <div class="content">
+                    <div class="image">
+                      <img src="img/ai-server1.jpg" alt="Picture">
+                    </div>
+                    <div class="desc">
+                      <div class="category">サーバー</div>
+                      <h4>AIサーバー No.1 24時間稼働</h4>
+                      <div class="single-post-text">
+                        <p>CPU: Intel Xeon Silver 4410T
+                          <br>メモリ: Micron PC5-4800B ECC RDIMM 32GBx4 (128GB)
+                          <br>CPUクーラー: Noctua NH-U9 DX-4677
+                          <br>マザーボード: Supermicro X13SEI-F
+                          <br>RAIDカード: MegaRAID 946N-8i
+                          <br>GPU1: NVIDIA Titan V
+                          <br>GPU2: NVIDIA GeForce RTX3080 Turbo
+                          <br>ケース: SilverStone CS350
+                          <br>電源ユニット: SilverStone ST1300-TI 1300W
+                          <br>ストレージ:
+                          <br>- SEAGATE Nytro 3331 SSD 3.84TB
+                          <br>- Samsung MZ-7KM960M 960GB x2
+                          <br>- WD WD10EFRX 1TB x4
+                          <br>- Samsung PM1735 hhhl 1.6TB
+                          <br>イーサネット: ASUS QLogic BCM57840 10GbE
+                          <br>OS: Ubuntu 22.04</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="section works">
-                <div class="content">
-                  <div class="filter-menu">
-                    <div class="filters">
-                      <div class="btn-group">
-                        <label data-text="">
-                          <input type="radio" name="fl_radio" value=".box-item" /><b>拠点2の機材: </b>
-                        </label>
+              <div class="box-item f-content">
+                <div class="image">
+                  <a href="#asus-server" class="has-popup-media">
+                    <img src="img/asus-server.jpg" alt="Picture">
+                    <span class="info">
+                      <span class="centrize full-width">
+                        <span class="vertical-center">
+                          <span class="ion ion-ios-plus-empty">
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div class="desc">
+                  <div class="category">録画サーバー 24時間稼働</div>
+                </div>
+                <div id="asus-server" class="popup-box mfp-fade mfp-hide">
+                  <div class="content">
+                    <div class="image">
+                      <img src="img/asus-server.jpg" alt="Picture">
+                    </div>
+                    <div class="desc">
+                      <div class="category">サーバー</div>
+                      <h4>録画サーバー 24時間稼働</h4>
+                      <div class="single-post-text">
+                        <p>モデル名: ASUS RS100-E10-PI2
+                          <br>CPU: Intel Xeon E-2144G
+                          <br>メモリ: Kingston PC4-3200AA ECC UDIMM 32GB
+                          <br>ストレージ:
+                          <br>- Intel 512GB SSD
+                          <br>- WD 2TB HDD
+                          <br>OS: Ubuntu 22.04</p>
                       </div>
                     </div>
                   </div>
-                  <br>
-                  <div class="box-items portfolio-items">
-                    <div class="box-item f-content">
-                      <div class="image">
-                        <a href="#main2" class="has-popup-media">
-                          <img src="img/main2.jpg" alt="Picture" />
-                          <span class="info">
-                            <span class="centrize full-width">
-                              <span class="vertical-center">
-                                <span class="ion ion-ios-plus-empty"></span>
-                              </span>
-                            </span>
+                </div>
+              </div>
+              <div class="box-item f-content">
+                <div class="image">
+                  <a href="#main-pc" class="has-popup-media">
+                    <img src="img/main-pc.jpg" alt="Picture">
+                    <span class="info">
+                      <span class="centrize full-width">
+                        <span class="vertical-center">
+                          <span class="ion ion-ios-plus-empty">
                           </span>
-                        </a>
-                      </div>
-                      <div class="desc">
-                        <div class="category">全体写真</div>
-                      </div>
-                      <div id="main2" class="popup-box mfp-fade mfp-hide">
-                        <div class="content">
-                          <div class="image">
-                            <img src="img/main2.jpg" alt="Cardboard Box" /></div>
-                            <div class="desc">
-                              <div class="category">サーバー</div>
-                              <h4>全体写真</h4>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    <div class="box-item f-content">
-                        <div class="image">
-                          <a href="#test-server" class="has-popup-media">
-                            <img src="img/test-server.jpg" alt="Picture" />
-                            <span class="info">
-                              <span class="centrize full-width">
-                                <span class="vertical-center">
-                                  <span class="ion ion-ios-plus-empty"></span>
-                                </span>
-                              </span>
-                            </span>
-                          </a>
-                        </div>
-                        <div class="desc">
-                          <div class="category">実験サーバー 24時間なし</div>
-                        </div>
-                        <div id="test-server" class="popup-box mfp-fade mfp-hide">
-                          <div class="content">
-                            <div class="image">
-                              <img src="img/test-server.jpg" alt="Picture" />
-                            </div>
-                            <div class="desc">
-                              <div class="category">サーバー</div>
-                              <h4>実験サーバー 24時間なし</h4>
-                              <div class="single-post-text">
-                                <p>CPU: Intel Xeon Gold 5218<br />
-                                  メモリ: v-color Hynix PC4-2933Y ECC RDIMM 16GBx2 (32GB) <br />
-                                  CPUクーラー: Dynatron L8 1U用簡易水冷<br />
-                                  マザーボード: Supermicro X11SPI-TF <br />
-                                  ケース: Supermicro CSE-514 <br />
-                                  電源ユニット: Supermicro PWS-505P-1H 500W <br />
-                                  ストレージ:  <br />
-                                  - Intel SSD 750 Series 800GB <br />
-                                  イーサネット: Supermicro AOC-STG-B4S Add-on Card 10GbE <br />
-                                  OS: Windows 11 Pro</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="box-item f-content">
-                          <div class="image">
-                            <a href="#ai-server1" class="has-popup-media">
-                              <img src="img/ai-server1.jpg" alt="Picture" />
-                              <span class="info">
-                                <span class="centrize full-width">
-                                  <span class="vertical-center">
-                                    <span class="ion ion-ios-plus-empty"></span>
-                                  </span>
-                                </span>
-                              </span>
-                            </a>
-                          </div>
-                          <div class="desc">
-                            <div class="category">AIサーバー No.1 24時間稼働</div>
-                          </div>
-                          <div id="ai-server1" class="popup-box mfp-fade mfp-hide">
-                            <div class="content">
-                              <div class="image">
-                                <img src="img/ai-server1.jpg" alt="Picture" />
-                              </div>
-                              <div class="desc">
-                                <div class="category">サーバー</div>
-                                <h4>AIサーバー No.1 24時間稼働</h4>
-                                <div class="single-post-text">
-                                  <p>CPU: Intel Xeon Silver 4410T<br />
-                                    メモリ: Micron PC5-4800B ECC RDIMM 32GBx4 (128GB) <br />
-                                    CPUクーラー: Noctua NH-U9 DX-4677<br />
-                                    マザーボード: Supermicro X13SEI-F <br />
-                                    RAIDカード: MegaRAID 946N-8i<br />
-                                    GPU1: NVIDIA Titan V <br />
-                                    GPU2: NVIDIA GeForce RTX3080 Turbo <br />
-                                    ケース: SilverStone CS350 <br />
-                                    電源ユニット: SilverStone ST1300-TI 1300W <br />
-                                    ストレージ:  <br />
-                                    - SEAGATE Nytro 3331 SSD 3.84TB <br />
-                                    - Samsung MZ-7KM960M 960GB x2 <br />
-                                    - WD WD10EFRX 1TB x4<br />
-                                    - Samsung PM1735 hhhl 1.6TB<br />
-                                    イーサネット: ASUS QLogic BCM57840 10GbE <br />
-                                    OS: Ubuntu 22.04</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="box-item f-content">
-                            <div class="image">
-                              <a href="#asus-server" class="has-popup-media">
-                                <img src="img/asus-server.jpg" alt="Picture" />
-                                <span class="info">
-                                  <span class="centrize full-width">
-                                    <span class="vertical-center">
-                                      <span class="ion ion-ios-plus-empty"></span>
-                                    </span>
-                                  </span>
-                                </span>
-                              </a>
-                            </div>
-                            <div class="desc">
-                              <div class="category">録画サーバー 24時間稼働</div>
-                            </div>
-                            <div id="asus-server" class="popup-box mfp-fade mfp-hide">
-                              <div class="content">
-                                <div class="image">
-                                  <img src="img/asus-server.jpg" alt="Picture" />
-                                </div>
-                                <div class="desc">
-                                  <div class="category">サーバー</div>
-                                  <h4>録画サーバー 24時間稼働</h4>
-                                  <div class="single-post-text">
-                                    <p>モデル名: ASUS RS100-E10-PI2 <br />
-                                      CPU: Intel Xeon E-2144G<br />
-                                      メモリ: Kingston PC4-3200AA ECC UDIMM 32GB <br />
-                                      ストレージ:  <br />
-                                      - Intel 512GB SSD <br />
-                                      - WD 2TB HDD<br />
-                                      OS: Ubuntu 22.04</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                            <div class="box-item f-content">
-                              <div class="image">
-                                <a href="#main-pc" class="has-popup-media">
-                                  <img src="img/main-pc.jpg" alt="Picture" />
-                                  <span class="info">
-                                    <span class="centrize full-width">
-                                      <span class="vertical-center">
-                                        <span class="ion ion-ios-plus-empty"></span>
-                                      </span>
-                                    </span>
-                                  </span>
-                                </a>
-                              </div>
-                              <div class="desc">
-                                <div class="category">メインPC 24時間稼働</div>
-                              </div>
-                              <div id="main-pc" class="popup-box mfp-fade mfp-hide">
-                                <div class="content">
-                                  <div class="image">
-                                    <img src="img/main-pc.jpg" alt="Picture" />
-                                  </div>
-                                  <div class="desc">
-                                    <div class="category">ワークステーション</div>
-                                    <h4>メインPC 24時間稼働</h4>
-                                    <div class="single-post-text">
-                                      <p>CPU: AMD EPYC 8534P <br />
-                                        メモリ: Samsung PC5-4800B ECC RDIMM (32GBx12)384GB <br />
-                                        CPUクーラー: Alphacool Eisbaer Pro HPE Aurora 360 CPU AIO <br />
-                                        マザーボード: ASUS S14NA-U12 <br />
-                                        GPU: NVIDIA RTX4070Ti 簡易水冷 <br />
-                                        ケース: Fractal Design North Charcoal Black <br />
-                                        電源ユニット: SilverStone HELA 1200R Platinum <br />
-                                        ケースファン: <br />
-                                        - ARCTIC P12 MAX x3 <br />
-                                        - Fractal Design Dynamic X2 GP-12 x1 (GPU用) <br />
-                                        ストレージ:  <br />
-                                        - Crucial T705 with heatshink 1TB (OS) <br />
-                                        - Samsung 980 PRO with heatsink 1TB <br />
-                                        - Samsung PM9A3 960GB x2 <br />
-                                        - Western Digital HDD 2TB WD Gold x2 <br />
-                                        その他:  <br />
-                                        - CoolerMaster A-RGB LED SMALL CONTROLLER <br />
-                                        OS: Windows 11 Pro
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="box-item f-content">
-                              <div class="image">
-                                <a href="#ai-server2" class="has-popup-media">
-                                  <img src="img/ai-server2.jpg" alt="Picture" />
-                                  <span class="info">
-                                    <span class="centrize full-width">
-                                      <span class="vertical-center">
-                                        <span class="ion ion-ios-plus-empty"></span>
-                                      </span>
-                                    </span>
-                                  </span>
-                                </a>
-                              </div>
-                              <div class="desc">
-                                <div class="category">実験サーバー No.2 24時間稼働</div>
-                              </div>
-                              <div id="ai-server2" class="popup-box mfp-fade mfp-hide">
-                                <div class="content">
-                                  <div class="image">
-                                    <img src="img/ai-server2.jpg" alt="Picture" />
-                                  </div>
-                                  <div class="desc">
-                                    <div class="category">サーバー</div>
-                                    <h4>実験サーバー No.2 24時間稼働</h4>
-                                    <div class="single-post-text">
-                                      <p>CPU: Intel Xeon W-3345 QS @ 3.00GHz <br />
-                                        メモリ: Micron PC4-3200AA ECC RDIMM (32GBx8)256GB <br />
-                                        CPUクーラー: Noctua NH-U12S DX-4189 <br />
-                                        マザーボード: Tyan S5642AGM3NRE-2T <br />
-                                        GPU: AMD Radeon Pro V320 <br />
-                                        ケース: SilverStone SST-FA513-B-C <br />
-                                        電源ユニット: SilverStone STT-HA1200R-PM 1200W <br />
-                                        ケースファン: ARCTIC P12 MAX x1 <br />
-                                        ストレージ:  <br />
-                                        - TOSHIBA KXG50ZNV512G NVMe 512GB (OS) <br />
-                                        OS: Windows 11 Pro
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="section skills">
-                            <div class="content">
-                              <div class="title">
-                                <div class="title_inner">その他の機材:</div>
-                              </div>
-                              <div class="skills list">
-                                <ul>
-                                  <li><div class="name">Aruba 1930 24P</div></li>
-                                  <li><div class="name">Allied Telesis AT-GS910/10XST</div></li>
-                                  <li><div class="name">SwitchBot 温度計</div></li>
-                                  <li><div class="name">DigiPower SAT-SWH-1511A-08N1</div></li>
-                                  <li><div class="name">StarTech.com KVM Switch</div></li>
-                                  <li><div class="name">APC Smart-UPS X3000</div></li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="clear"></div>
-                        </div>
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div class="desc">
+                  <div class="category">メインPC 24時間稼働</div>
+                </div>
+                <div id="main-pc" class="popup-box mfp-fade mfp-hide">
+                  <div class="content">
+                    <div class="image">
+                      <img src="img/main-pc.jpg" alt="Picture">
+                    </div>
+                    <div class="desc">
+                      <div class="category">ワークステーション</div>
+                      <h4>メインPC 24時間稼働</h4>
+                      <div class="single-post-text">
+                        <p>CPU: AMD EPYC 8534P
+                          <br>メモリ: Samsung PC5-4800B ECC RDIMM (32GBx12)384GB
+                          <br>CPUクーラー: Alphacool Eisbaer Pro HPE Aurora 360 CPU AIO
+                          <br>マザーボード: ASUS S14NA-U12
+                          <br>GPU: NVIDIA RTX4070Ti 簡易水冷
+                          <br>ケース: Fractal Design North Charcoal Black
+                          <br>電源ユニット: SilverStone HELA 1200R Platinum
+                          <br>ケースファン:
+                          <br>- ARCTIC P12 MAX x3
+                          <br>- Fractal Design Dynamic X2 GP-12 x1 (GPU用)
+                          <br>ストレージ:
+                          <br>- Crucial T705 with heatshink 1TB (OS)
+                          <br>- Samsung 980 PRO with heatsink 1TB
+                          <br>- Samsung PM9A3 960GB x2
+                          <br>- Western Digital HDD 2TB WD Gold x2
+                          <br>その他:
+                          <br>- CoolerMaster A-RGB LED SMALL CONTROLLER
+                          <br>OS: Windows 11 Pro</p>
                       </div>
                     </div>
-        <footer>
-          <div class="soc">
-            <a target="_blank" href="https://twitter.com/HomeDC_JP" title="Twitter"><span class="ion ion-social-twitter"></span></a>
-            <a target="_blank" href="https://www.facebook.com/people/Home-DC-Japan/100089576975878/" title="FaceBook"><span class="ion ion-social-facebook"></span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="box-item f-content">
+                <div class="image">
+                  <a href="#ai-server2" class="has-popup-media">
+                    <img src="img/ai-server2.jpg" alt="Picture">
+                    <span class="info">
+                      <span class="centrize full-width">
+                        <span class="vertical-center">
+                          <span class="ion ion-ios-plus-empty">
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </a>
+                </div>
+                <div class="desc">
+                  <div class="category">実験サーバー No.2 24時間稼働</div>
+                </div>
+                <div id="ai-server2" class="popup-box mfp-fade mfp-hide">
+                  <div class="content">
+                    <div class="image">
+                      <img src="img/ai-server2.jpg" alt="Picture">
+                    </div>
+                    <div class="desc">
+                      <div class="category">サーバー</div>
+                      <h4>実験サーバー No.2 24時間稼働</h4>
+                      <div class="single-post-text">
+                        <p>CPU: Intel Xeon W-3345 QS @ 3.00GHz
+                          <br>メモリ: Micron PC4-3200AA ECC RDIMM (32GBx8)256GB
+                          <br>CPUクーラー: Noctua NH-U12S DX-4189
+                          <br>マザーボード: Tyan S5642AGM3NRE-2T
+                          <br>GPU: AMD Radeon Pro V320
+                          <br>ケース: SilverStone SST-FA513-B-C
+                          <br>電源ユニット: SilverStone STT-HA1200R-PM 1200W
+                          <br>ケースファン: ARCTIC P12 MAX x1
+                          <br>ストレージ:
+                          <br>- TOSHIBA KXG50ZNV512G NVMe 512GB (OS)
+                          <br>OS: Windows 11 Pro</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="copy"><b>Copyright © 2024 HomeDC Japan.</b></div>
-          <div class="clr"></div>
-        </footer>
-        <div class="line top"></div>
-        <div class="line bottom"></div>
-        <div class="line left"></div>
-        <div class="line right"></div>
-        <div class="s_overlay"></div>
-        <div class="content-sidebar">
-          <div class="sidebar-wrap">
-            <aside id="secondary" class="widget-area">
-              <section class="widget widget_recent_entries">
-                <h2 class="widget-title"><b>www.homedc.jp</b></h2>
+          <div class="section skills">
+            <div class="content">
+              <div class="title">
+                <div class="title_inner">その他の機材:</div>
+              </div>
+              <div class="skills list">
                 <ul>
-                  <li><b>逸般の誤家庭データセンター計画サイトへようこそ！</b></li>
+                  <li>
+                    <div class="name">Aruba 1930 24P</div>
+                  </li>
+                  <li>
+                    <div class="name">Allied Telesis AT-GS910/10XST</div>
+                  </li>
+                  <li>
+                    <div class="name">SwitchBot 温度計</div>
+                  </li>
+                  <li>
+                    <div class="name">DigiPower SAT-SWH-1511A-08N1</div>
+                  </li>
+                  <li>
+                    <div class="name">StarTech.com KVM Switch</div>
+                  </li>
+                  <li>
+                    <div class="name">APC Smart-UPS X3000</div>
+                  </li>
                 </ul>
-              </section>
-              <section class="widget widget_categories">
-                <h2 class="widget-title"><b>カテゴリー:</b></h2>
-                <ul>
-                  <li><a href="index.html">ホーム</a></li>
-                  <li><a href="about.html">HomeDC.jpについて</a></li>
-                  <li><a href="servers.html">サーバー構成</a></li>
-                  <li><a href="status.html">ネットワーク状況</a></li>
-                  <li><a href="https://discord.com/invite/y5kGCGwN59">Discordコミュニティー</a></li>
-                  <li><a href="https://search-dns.homedc.jp/">DNS検索ツール</a></li>
-                  <li><a href="https://text.homedc.jp/">テキストツール</a></li>
-                  <li><a href="/en/servers.html">言語(English)</a></li>
-                </ul>
-              </section>
-            </aside>
+              </div>
+            </div>
           </div>
-          <span class="close"></span>
+          <div class="clear">
+          </div>
         </div>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.validate.js"></script>
-        <script src="js/jquery.magnific-popup.js"></script>
-        <script src="js/imagesloaded.pkgd.js"></script>
-        <script src="js/isotope.pkgd.js"></script>
-        <script src="js/owl.carousel.js"></script>
-        <script src="js/typed.js"></script>
-        <script src="js/rrssb.js"></script>
-        <script src="js/simple-jekyll-search.js"></script>
-        <script src="js/glitche-scripts.js"></script>
-        <script src="js/background.js"></script>
-      </body>
+      </div>
+    </div>
+    <footer>
+      <div class="soc">
+        <a target="_blank" href="https://twitter.com/HomeDC_JP" title="Twitter">
+          <span class="ion ion-social-twitter">
+          </span>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/people/Home-DC-Japan/1.000896e+14/" title="FaceBook">
+          <span class="ion ion-social-facebook">
+          </span>
+        </a>
+      </div>
+      <div class="copy">
+        <b>Copyright © 2024 HomeDC Japan.</b>
+      </div>
+      <div class="clr">
+      </div>
+    </footer>
+    <div class="line top">
+    </div>
+    <div class="line bottom">
+    </div>
+    <div class="line left">
+    </div>
+    <div class="line right">
+    </div>
+    <div class="s_overlay">
+    </div>
+    <div class="content-sidebar">
+      <div class="sidebar-wrap">
+        <aside id="secondary" class="widget-area">
+          <section class="widget widget_recent_entries">
+            <h2 class="widget-title">
+              <b>www.homedc.jp</b>
+            </h2>
+            <ul>
+              <li>
+                <b>逸般の誤家庭データセンター計画サイトへようこそ！</b>
+              </li>
+            </ul>
+          </section>
+          <section class="widget widget_categories">
+            <h2 class="widget-title">
+              <b>カテゴリー:</b>
+            </h2>
+            <ul>
+              <li>
+                <a href="index.html">ホーム</a>
+              </li>
+              <li>
+                <a href="about.html">HomeDC.jpについて</a>
+              </li>
+              <li>
+                <a href="servers.html">サーバー構成</a>
+              </li>
+              <li>
+                <a href="status.html">ネットワーク状況</a>
+              </li>
+              <li>
+                <a href="https://discord.com/invite/y5kGCGwN59">Discordコミュニティー</a>
+              </li>
+              <li>
+                <a href="https://search-dns.homedc.jp/">DNS検索ツール</a>
+              </li>
+              <li>
+                <a href="https://text.homedc.jp/">テキストツール</a>
+              </li>
+              <li>
+                <a href="/en/servers.html">言語(English)</a>
+              </li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+      <span class="close">
+      </span>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/isotope.pkgd.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/rrssb.js"></script>
+    <script src="js/simple-jekyll-search.js"></script>
+    <script src="js/glitche-scripts.js"></script>
+    <script src="js/background.js"></script>
+  </div>
+</body>
+
 </html>
